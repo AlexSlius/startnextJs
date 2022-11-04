@@ -5,6 +5,8 @@ RUN npm i
 
 COPY . .
 
-EXPOSE 3030
+RUN npm run build
 
-CMD ["npm", "run", "dev"]
+EXPOSE 3000
+
+CMD [ "npm", "run", "serve" ]
