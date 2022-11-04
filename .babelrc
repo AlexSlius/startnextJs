@@ -1,0 +1,19 @@
+{
+  "presets": [
+    "next"
+  ],
+  "plugins": [
+    "inline-dotenv",
+    [
+      "module-resolver",
+      {
+        "root": [
+          "./src"
+        ],
+        "alias": {
+          "@Src": "./src"
+        }
+      }
+    ]
+  ]
+}

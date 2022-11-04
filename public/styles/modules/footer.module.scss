@@ -1,0 +1,11 @@
+.footer {
+    padding: 40px 0;
+    background: var(--bg-footer);
+    &__row {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__btn {
+        
+    }
+}

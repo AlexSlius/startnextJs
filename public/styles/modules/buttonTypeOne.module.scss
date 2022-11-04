@@ -1,0 +1,31 @@
+.btn {
+    background: transparent;
+    padding: 28px 56px;
+    position: relative;
+    font-size: 12px;
+    span {
+        position: relative;
+        z-index: 4;
+    }
+    &__svg {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.2;
+        stroke-dasharray: 540 542;
+        stroke-dashoffset: 0;
+        transition: 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+        // background: url(/images/bg-btn.svg) center/contain no-repeat;
+    }
+}
+
+.cls_1 {
+    fill: #000;
+    stroke: #000;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 1px;
+    // stroke-dashoffset: 0;
+}
