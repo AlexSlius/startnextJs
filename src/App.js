@@ -13,6 +13,7 @@ const App = ({
 }) => {
     const windowSize = useWindowSize();
     const router = useRouter();
+
     const { theme } = state;
 
     useEffect(() => {
